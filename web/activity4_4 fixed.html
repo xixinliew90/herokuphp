@@ -1,15 +1,48 @@
+<!-- fix : Page lacks the HTML doctype, thus triggering quirks mod-->
 <!DOCTYPE html>
-<html lang="en">
-<html>
+<html class="hydrated">
 
 <head>
-    <title>For Width & Height Image</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="For Width & Height Image">
+
+    <!-- Primary Meta Tags -->
+    <title>TraceTogether</title>
+    <meta name="title" content="TraceTogether">
+    <meta name="description" content="Help stop the spread of COVID-19 through community-driven contact tracing in Singapore.">
 </head>
 
 <body>
-    <img class="card-img-top img-fluid imgwidthheightmedium" src="https://www.courts.com.sg/media/express_delivery/default/sdd-icon-1.21.png" data-holder-rendered="true " alt="Scholarship ">
+    <div class="sticky-top">
+        <div class="container-fluid" id="masthead-container">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-11">
+                    <a id="masthead-link" href="https://www.gov.sg/">
+                        <span id="merlion-head">
+                    <img src="/img/merlion-head.svg" alt="Merlion">
+                  </span>
+                        <span id="masthead-text">A Singapore Government Agency Website</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner">
+            <div class="banner__content">
+                <div class="banner__text">
+                    Starting on 26 April, only
+                    <strong>larger events with more than 500 participants</strong> at any one time, and
+                    <strong>certain nightlife establishments</strong>, require the public to check in with their TraceTogether App or Token for VDS checks. For more details, see this
+                    <a href="https://www.gov.sg/article/further-easing-of-community-measures">further easing of community measures</a>.
+                </div>
+                <button class="banner__close" type="button">
+                <span class="material-icons"> close </span>
+              </button>
+            </div>
+        </div>
+
+        <wog-sentiments class="needsclick hydrated"></wog-sentiments>
 </body>
 
 </html>
